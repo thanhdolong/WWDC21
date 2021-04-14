@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>2</string>
+			<key>ModifiedRange</key>
+			<string>{1319, 1}</string>
+			<key>OriginalContent</key>
+			<string>&lt;#T##time for question##Double#&gt;</string>
+			<key>OriginalRange</key>
+			<string>{1319, 32}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>3</string>
+			<key>ModifiedRange</key>
+			<string>{1389, 1}</string>
+			<key>OriginalContent</key>
+			<string>&lt;#T##prepare time##Double#&gt;</string>
+			<key>OriginalRange</key>
+			<string>{1420, 27}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>1</string>
+			<key>ModifiedRange</key>
+			<string>{1450, 1}</string>
+			<key>OriginalContent</key>
+			<string>&lt;#T##lives##Int#&gt;</string>
+			<key>OriginalRange</key>
+			<string>{1507, 17}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>c</string>
+			<key>ModifiedRange</key>
+			<string>{1526, 1}</string>
+			<key>OriginalContent</key>
+			<string>rand</string>
+			<key>OriginalRange</key>
+			<string>{1599, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>vid</string>
+			<key>ModifiedRange</key>
+			<string>{1528, 3}</string>
+			<key>OriginalContent</key>
+			<string>m</string>
+			<key>OriginalRange</key>
+			<string>{1604, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/PlaygroundPage.playgroundpage/main.swift</string>
+</dict>
+</plist>

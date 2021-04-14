@@ -9,6 +9,7 @@ import UIKit
 import PlaygroundSupport
 import LiveViewHost
 import BookCore
+import SwiftUI
 
 @UIApplicationMain
 class AppDelegate: LiveViewHost.AppDelegate {
@@ -18,7 +19,17 @@ class AppDelegate: LiveViewHost.AppDelegate {
         // The view or view controller returned from this method will be automatically be shown on screen,
         // as if it were a live view in Swift Playgrounds. You can control how the live view is shown by
         // changing the implementation of the `liveViewConfiguration` property below.
-        return Pages.instantiateHomepageScene()
+        let quizConfiguration = QuizConfiguration(questions: Question.appleStub(),
+                                                  points: [
+                                                    7.5..<10: 1,
+                                                    5..<7.5: 0.8,
+                                                    0..<5: 0.6
+                                                  ],
+                                                  timeForQuestion: 10,
+                                                  prepareTime: 5)
+        let viewModel = GameOfThronesView.ViewModel(height: 500,
+                                               gameManager: .init(configuration: quizConfiguration))
+        return UIHostingController(rootView: GameOfThronesView(viewModel: viewModel))
     }
 
     override var liveViewConfiguration: LiveViewConfiguration {

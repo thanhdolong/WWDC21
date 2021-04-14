@@ -6,6 +6,10 @@
 	<string>7.0</string>
 	<key>ContentIdentifier</key>
 	<string>$(PLAYGROUND_BOOK_CONTENT_IDENTIFIER)</string>
+	<key>ImageReference</key>
+	<string>book_icon.png</string>
+	<key>MinimumSwiftPlaygroundsVersion</key>
+	<string>3.4</string>
 	<key>ContentVersion</key>
 	<string>$(PLAYGROUND_BOOK_CONTENT_VERSION)</string>
 	<key>DevelopmentRegion</key>
@@ -15,11 +19,10 @@
 	<key>SwiftVersion</key>
 	<string>$(SWIFT_VERSION)</string>
 	<key>Name</key>
-	<string>PlaygroundBookName</string>
+	<string>Quiz Playground</string>
 	<key>Chapters</key>
 	<array>
 		<string>Chapter1.playgroundchapter</string>
-		<string>Chapter2.playgroundchapter</string>
 	</array>
 	<key>UserAutoImportedAuxiliaryModules</key>
 	<array>

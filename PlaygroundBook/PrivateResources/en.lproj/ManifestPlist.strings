@@ -6,13 +6,14 @@ Contains English localizations of values in Manifest.plist files in the playgrou
 */
 
 /* The localized name of the playground book. */
-"PlaygroundBookName" = "WWDC21 - Thanh";
+"PlaygroundBookName" = "Quiz Playground";
 
 /* The localized name of the first chapter in the playground book. */
 "ChapterOneName" = "Quizes";
 "ChapterTwoName" = "Create Own";
 
 /* The localized name of the first page in the first chapter in the playground book. */
-"CovidQuizName" = "Covid Quiz";
 "AppleQuizName" = "Apple Quiz";
 "PlaygroundName" = "Playground";
+"EpiloqueName" = "Epiloque";
+"IntroName" = "Introduction";
